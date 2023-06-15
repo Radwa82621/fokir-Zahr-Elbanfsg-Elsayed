@@ -1,0 +1,221 @@
+@media screen and (max-width: 786px) {
+  /* ****************************** Navbar Start *************************************  */
+  .nav {
+    position: relative;
+    width: 100%;
+  }
+  .nav .bars {
+    visibility: visible;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+  }
+  .nav ul {
+    position: absolute;
+    top: 100%;
+    float: none;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s;
+  }
+  .nav:has(.bars:hover) ul {
+    visibility: visible;
+    opacity: 1;
+  }
+  .nav ul a {
+    width: 100%;
+  }
+  .home .inner .bigheader h1 {
+    font-size: 50px;
+  }
+  /* ****************************** Navbar End *************************************  */
+
+  /* ****************************** Hello Section Two Start *************************************  */
+  .hello .imgBox {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .hello .profileImg img {
+    width: 100%;
+  }
+  .hello .info {
+    width: 100%;
+  }
+  .hello .info ul {
+    width: 100%;
+  }
+  .hello .info ul li {
+    margin-bottom: 20px;
+  }
+  .hello .info button {
+    padding: 15px 8px;
+    margin-bottom: 5px;
+  }
+  /* ****************************** Hello Section Two End *************************************  */
+  /* ****************************** Services Section Three Start *************************************  */
+  .itemsGroup .item {
+    width: 100%;
+  }
+  /* ****************************** Services Section Three End *************************************  */
+  /* ****************************** Portfolio Section Four Start *************************************  */
+  .Portfolio .imgesGroup .imgRowOne {
+    width: 100%;
+  }
+  .Portfolio ul {
+    width: 100%;
+  }
+  .Portfolio ul li {
+    width: 25%;
+  }
+  /* ****************************** Portfolio Section Four End *************************************  */
+  /* ****************************** Numbers Section Five Start *************************************  */
+  .numbers .numberNotes {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  /* ****************************** Numbers Section Five End *************************************  */
+  /* ****************************** Feedback Section Six Start *************************************  */
+  .feedback .feedbackInfo {
+    width: 100%;
+  }
+  .feedback .feedbackInfo .info img {
+    width: 50%;
+  }
+  .feedback .feedbackInfo .infopragh {
+    width: 100%;
+  }
+  /* ****************************** Feedback Section Six End *************************************  */
+  /* ****************************** Blog Section Seven Start *************************************  */
+  .Blog .videos .video {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  /* ****************************** Blog Section Seven End *************************************  */
+  /* ****************************** Contact Section Eight Start *************************************  */
+  .contact .enterdata .sameRow input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 786.001px) and (max-width: 992px) {
+  /* ****************************** Navbar Start *************************************  */
+  .nav {
+    position: relative;
+    width: 100%;
+  }
+  .nav .bars {
+    visibility: visible;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+  }
+  .nav ul {
+    position: absolute;
+    top: 100%;
+    float: none;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s;
+  }
+  .nav:has(.bars:hover) ul {
+    visibility: visible;
+    opacity: 1;
+  }
+  .nav ul a {
+    width: 100%;
+  }
+  .home .inner .bigheader h1 {
+    font-size: 50px;
+  }
+  /* ****************************** Navbar End *************************************  */
+
+  /* ****************************** Hello Section Two Start *************************************  */
+  .hello,
+  .services,
+  .Portfolio {
+    width: 100%;
+  }
+  .hello .imgBox2 {
+    top: 0px;
+    left: 0px;
+  }
+  .hello .imgBox {
+    border: none;
+  }
+  .hello .info {
+    width: 45%;
+    padding: 0 10px;
+  }
+  .hello .info ul {
+    width: 100%;
+  }
+
+  .hello .info button {
+    padding: 15px 15px;
+    margin-bottom: 5px;
+  }
+  /* ****************************** Hello Section Two End *************************************  */
+  /* ****************************** Services Section Three Start *************************************  */
+  .itemsGroup .item {
+    width: 50%;
+  }
+  /* ****************************** Portfolio Section Four Start *************************************  */
+  .Portfolio .imgesGroup {
+    width: 80%;
+    margin: auto;
+  }
+
+  .Portfolio .imgesGroup .imgRowOne {
+    width: 40%;
+    margin-left: 30px;
+  }
+  .Portfolio ul {
+    width: 100%;
+  }
+  .Portfolio ul li {
+    width: 25%;
+  }
+  /* ****************************** Portfolio Section Four End *************************************  */
+  /* ****************************** Feedback Section Six Start *************************************  */
+  .feedback .feedbackInfo {
+    width: 80%;
+  }
+  .feedback .feedbackInfo .info img {
+    width: 50%;
+  }
+  .feedback .feedbackInfo .infopragh {
+    width: 100%;
+  }
+  /* ****************************** Feedback Section Six End *************************************  */
+}
+@media screen and (min-width: 992.001px) and (max-width: 1200px) {
+  .hello .info {
+    width: 40%;
+  }
+  .hello .info ul {
+    width: 100%;
+  }
+  /* ****************************** Hello Section Two End *************************************  */
+  /* ****************************** Services Section Three Start *************************************  */
+  .itemsGroup .item {
+    width: 50%;
+  }
+  /* ****************************** Hello Section Two End *************************************  */
+  /* ****************************** Feedback Section Six Start *************************************  */
+  .feedback .feedbackInfo {
+    width: 60%;
+  }
+  .feedback .feedbackInfo .info img {
+    width: 30%;
+  }
+  .feedback .feedbackInfo .infopragh {
+    width: 60%;
+  }
+  /* ****************************** Feedback Section Six End *************************************  */
+}

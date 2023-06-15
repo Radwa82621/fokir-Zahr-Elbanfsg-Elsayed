@@ -1,0 +1,750 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearFix {
+  clear: both;
+}
+/* ****************************** Navbar Start *************************************  */
+.BG {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+.nav .bars {
+  font-size: 25px;
+  color: #ff305b;
+  visibility: hidden;
+}
+.nav {
+  width: 80%;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  /* background-color: rgb(41, 83, 176); */
+  padding: 5px 0;
+}
+.nav .headertitle a {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ff305b;
+  text-decoration: none;
+  /* background-color: antiquewhite; */
+  padding: 10px;
+}
+.nav .headertitle {
+  float: left;
+  width: 50%;
+  /* background-color: #ff305b; */
+  padding: 10px;
+}
+.nav ul {
+  list-style-type: none;
+  float: left;
+  width: 50%;
+  /* background-color: #94c026; */
+  position: relative;
+}
+.nav ul a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+  float: left;
+  /* background-color: aqua; */
+  padding: 15px 5px;
+  margin: 0 10px;
+  transition: 0.5s all;
+}
+.nav ul li :hover {
+  color: #ff305b;
+}
+.nav ul .acthome {
+  color: #ff305b;
+}
+.nav ul li :focus {
+  color: white;
+}
+/* ****************************** Navbar End *************************************  */
+/* ****************************** Home Section One Start *************************************  */
+.home {
+  background-image: url(./../images/slider-02.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.home .inner {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+  overflow: auto;
+}
+.home .inner .bigheader {
+  /* background-color: antiquewhite; */
+  text-align: center;
+  margin-top: 220px;
+}
+.home .inner .bigheader p {
+  color: #ffffff;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+.home .inner .bigheader .colwhite {
+  /* position: relative; */
+  border-right: 5px solid white;
+  display: inline-block;
+  padding-right: 5px;
+}
+.home .inner .bigheader h1 {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 70px;
+  color: #ff305b;
+  font-weight: bold;
+}
+/* ****************************** Home Section One End *************************************  */
+/* ****************************** Hello Section Two Start *************************************  */
+.hello {
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+  /* background-color: #333333; */
+}
+.hello .imgBox {
+  border: 8px solid #555555;
+  border-radius: 5px;
+  float: left;
+}
+.hello .imgBox2 {
+  position: relative;
+  top: 25px;
+  left: 25px;
+  overflow: hidden;
+}
+
+.hello .imgBox2 img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.hello .imgBox2 .profileicons a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 0px 15px;
+  transition: all 1s;
+}
+.hello .imgBox2 .profileicons a:hover {
+  color: #ff305b;
+}
+
+.hello .imgBox2 .profileicons {
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  bottom: 0;
+  top: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-top: 220px;
+  transition: 0.5s top;
+  border-radius: 5px;
+}
+.hello .imgBox2:hover .profileicons {
+  top: 0;
+}
+.hello .info {
+  /* background-color: blueviolet; */
+  float: left;
+  width: 60%;
+  padding: 0 40px;
+}
+.hello .info h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 22px;
+  margin-bottom: 25px;
+  padding-left: 13px;
+  font-family: "Source Sans 3", sans-serif;
+  color: #333;
+  position: relative;
+}
+.hello .info h2::after {
+  content: "";
+  width: 4px;
+  height: 22px;
+  background-color: #ff305b;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hello .info .infoTopic {
+  font-size: 16px;
+  color: #555555;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed #999999;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
+}
+.hello .info ul {
+  float: left;
+  list-style-type: none;
+  width: 30%;
+  /* background-color: yellowgreen; */
+}
+.hello .info li {
+  margin-bottom: 15px;
+  /* background-color: aqua; */
+}
+.hello .info li p {
+  float: left;
+  /* background-color: #ff305b; */
+  color: #555555;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.hello .info li span {
+  float: left;
+  /* background-color: blue; */
+  margin-right: 5px;
+  color: #333333;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.hello .info button {
+  background-color: #ff305b;
+  border-radius: 4px;
+  border: none;
+  padding: 15px 25px;
+  margin-right: 10px;
+}
+.hello .info button a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.hello .info button i {
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.hello .info button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+/* ****************************** Hello Section Two End *************************************  */
+/* ****************************** Services Section Three Start *************************************  */
+.BGServices {
+  background-color: #f1f1f1;
+}
+.services {
+  width: 80%;
+  margin: auto;
+  padding: 80px 0 34px;
+}
+.services h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #333333;
+  font-family: "Source Sans 3", sans-serif;
+  position: relative;
+  padding-bottom: 30px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.services h2::after {
+  content: "";
+  width: 5%;
+  height: 10px;
+  border-top: 1px solid #ff305b;
+  border-bottom: 1px solid #ff305b;
+  position: absolute;
+  bottom: 0;
+  left: 48%;
+}
+.services h2::before {
+  content: "";
+  width: 10%;
+  height: 5px;
+  border-bottom: 2px solid #ff305b;
+  position: absolute;
+  bottom: 5px;
+  left: 45.5%;
+}
+.itemsGroup {
+  padding: 0 15px;
+}
+.services .itemsGroup .item .dev-icon {
+  width: 30px;
+  height: 30px;
+  border: 5px solid #ff305b;
+  margin: 0 auto 10px;
+  border-radius: 7px;
+  transition: 0.5s all;
+}
+.itemsGroup .item {
+  /* background-color: violet; */
+  text-align: center;
+  float: left;
+  width: 25%;
+  padding: 35px 25px;
+  transition: 0.5s all;
+}
+.itemsGroup .item:hover .dev-icon {
+  transform: scale(1.5);
+}
+.itemsGroup .item:hover {
+  background-color: white;
+  box-shadow: 0px 5px 10px #d9d7d7;
+  border-radius: 5px;
+}
+.itemsGroup .item h3 {
+  font-size: 22px;
+  color: #333;
+  font-family: "Source Sans 3", sans-serif;
+  margin-bottom: 15px;
+}
+.itemsGroup .item p {
+  font-size: 16px;
+  color: #555555;
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+}
+/* ****************************** Services Section Three End *************************************  */
+/* ****************************** Portfolio Section Four Start *************************************  */
+.Portfolio {
+  width: 80%;
+  margin: auto;
+  padding: 80px 0 50px;
+}
+.Portfolio h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #333333;
+  font-family: "Source Sans 3", sans-serif;
+  position: relative;
+  padding-bottom: 30px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.Portfolio h2::after {
+  content: "";
+  width: 5%;
+  height: 10px;
+  border-top: 1px solid #ff305b;
+  border-bottom: 1px solid #ff305b;
+  position: absolute;
+  bottom: 0;
+  left: 48%;
+}
+.Portfolio h2::before {
+  content: "";
+  width: 10%;
+  height: 5px;
+  border-bottom: 2px solid #ff305b;
+  position: absolute;
+  bottom: 5px;
+  left: 45.5%;
+}
+.Portfolio ul {
+  list-style-type: none;
+  /* background-color: yellowgreen; */
+  margin: auto;
+  width: 50%;
+  margin-bottom: 50px;
+}
+.Portfolio ul a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  /* background-color: #555555; */
+}
+.Portfolio ul li {
+  float: left;
+  /* background-color: #ff305b; */
+  text-align: center;
+  width: 25%;
+}
+.Portfolio .portfolioCat .all a {
+  color: #ff305b;
+}
+.Portfolio ul a:focus {
+  color: #ff305b;
+}
+.Portfolio .imgesGroup .imgRowOne {
+  float: left;
+  width: 30%;
+  margin: 0 15px 30px;
+  position: relative;
+}
+.Portfolio .imgesGroup .imgRowOne img {
+  width: 100%;
+}
+.Portfolio .imgesGroup .imgRowOne .layerOne {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.Portfolio .imgesGroup .imgRowOne .layerOne i {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 10px 10px;
+  color: brown;
+  font-size: 30px;
+}
+.Portfolio .imgesGroup .imgRowOne:hover .layerOne {
+  opacity: 1;
+}
+/* ****************************** Portfolio Section Four End *************************************  */
+/* ****************************** Numbers Section Five Start *************************************  */
+.BGnumbers {
+  background-color: #f1f1f1;
+}
+.numbers {
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+  /* background-color: violet; */
+}
+.numbers .numberNotes {
+  float: left;
+  /* background-color: yellowgreen; */
+  padding: 0 15px;
+  text-align: center;
+  width: 25%;
+}
+.numbers .numberNotes i {
+  font-size: 30px;
+  color: #ff305b;
+  margin-bottom: 15px;
+}
+.numbers .numberNotes h2 {
+  font-size: 26px;
+  font-family: "Source Sans 3", sans-serif;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.numbers .numberNotes p {
+  font-size: 16px;
+  font-family: "Source Sans 3", sans-serif;
+  color: #555555;
+}
+/* ****************************** Numbers Section Five End *************************************  */
+/* ****************************** Feedback Section Six Start *************************************  */
+.feedback {
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+}
+.feedback h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #333333;
+  font-family: "Source Sans 3", sans-serif;
+  position: relative;
+  padding-bottom: 30px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.feedback h2::after {
+  content: "";
+  width: 5%;
+  height: 10px;
+  border-top: 1px solid #ff305b;
+  border-bottom: 1px solid #ff305b;
+  position: absolute;
+  bottom: 0;
+  left: 48%;
+}
+.feedback h2::before {
+  content: "";
+  width: 10%;
+  height: 5px;
+  border-bottom: 2px solid #ff305b;
+  position: absolute;
+  bottom: 5px;
+  left: 45.5%;
+}
+.feedback .feedbackInfo {
+  background-color: #f1f1f1;
+  width: 60%;
+  margin: auto;
+  border-radius: 5px;
+  padding: 0 15px;
+  position: relative;
+  overflow: hidden;
+}
+.feedback .feedbackInfo .info {
+  padding: 40px;
+  position: relative;
+}
+.feedback .feedbackInfo .layer {
+  background-color: #ff305b;
+  width: 200px;
+  height: 200px;
+  transform: skew(135deg) translateX(-120px);
+  position: absolute;
+  top: 0;
+}
+.feedback .feedbackInfo .info img {
+  border-radius: 50%;
+  float: left;
+  width: 20%;
+  /* background-color: yellowgreen; */
+}
+.feedback .feedbackInfo .infopragh {
+  float: left;
+  /* background-color: aqua; */
+  width: 80%;
+  padding-left: 5px;
+}
+.feedback .feedbackInfo .infopragh h3 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #333333;
+  font-family: "Source Sans 3", sans-serif;
+}
+.feedback .feedbackInfo .infopragh a {
+  text-decoration: none;
+  color: #777777;
+  font-size: 16px;
+  font-weight: 600;
+}
+.feedback .feedbackInfo .infopragh .anchLocation {
+  margin-bottom: 10px;
+}
+.feedback .feedbackInfo .infopragh p {
+  font-size: 20px;
+  font-style: italic;
+  margin: 0 0 15px;
+  color: #555555;
+  line-height: 30px;
+}
+.feedback .feedbackInfo .infopragh .star {
+  color: #f1c30d;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+/* ****************************** Feedback Section Six End *************************************  */
+/* ****************************** Blog Section Seven Start *************************************  */
+.BGBlog {
+  background-color: #f1f1f1;
+}
+.Blog {
+  width: 80%;
+  margin: auto;
+  padding: 70px 0 50px;
+}
+.Blog h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #333333;
+  font-family: "Source Sans 3", sans-serif;
+  position: relative;
+  padding-bottom: 30px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.Blog h2::after {
+  content: "";
+  width: 5%;
+  height: 10px;
+  border-top: 1px solid #ff305b;
+  border-bottom: 1px solid #ff305b;
+  position: absolute;
+  bottom: 0;
+  left: 48%;
+}
+.Blog h2::before {
+  content: "";
+  width: 10%;
+  height: 5px;
+  border-bottom: 2px solid #ff305b;
+  position: absolute;
+  bottom: 5px;
+  left: 45.5%;
+}
+.Blog .videos {
+  padding: 0 15px;
+  /* background-color: #f1c30d; */
+}
+.Blog .videos .video {
+  float: left;
+  /* background-color: rgb(128, 72, 72); */
+  width: 33.3333%;
+  padding: 0 15px;
+}
+.Blog .videos .video .details {
+  padding: 12px;
+  background-color: white;
+}
+.Blog .videos .video img {
+  width: 100%;
+  aspect-ratio: 3/2;
+}
+.Blog .videos .video iframe {
+  width: 100%;
+  aspect-ratio: 3/2;
+}
+.Blog .videos .video .details p {
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #555555;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
+}
+.Blog .videos .video .details .date {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #555555;
+}
+.Blog .videos .video .details a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #555555;
+  font-family: "Roboto", sans-serif;
+  transition: 1s all;
+}
+.Blog .videos .video .details a:hover {
+  color: #ff305b;
+}
+.Blog .videos .video .details h3 a {
+  color: #333333;
+  font-size: 20px;
+  font-family: "Source Sans 3", sans-serif;
+  text-decoration: none;
+}
+.Blog .videos .video .details h3 {
+  margin-bottom: 15px;
+}
+/* ****************************** Blog Section Seven End *************************************  */
+/* ****************************** Contact Section Eight Start *************************************  */
+.contact {
+  padding: 70px 0;
+}
+.contact h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #333333;
+  font-family: "Source Sans 3", sans-serif;
+  position: relative;
+  padding-bottom: 30px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.contact h2::after {
+  content: "";
+  width: 5%;
+  height: 10px;
+  border-top: 1px solid #ff305b;
+  border-bottom: 1px solid #ff305b;
+  position: absolute;
+  bottom: 0;
+  left: 48%;
+}
+.contact h2::before {
+  content: "";
+  width: 10%;
+  height: 5px;
+  border-bottom: 2px solid #ff305b;
+  position: absolute;
+  bottom: 5px;
+  left: 45.5%;
+}
+.contact .enterdata {
+  width: 60%;
+  /* background-color: #f1c30d; */
+  margin: auto;
+}
+.contact .enterdata .sameRow input {
+  float: left;
+  width: 50%;
+  margin-bottom: 25px;
+}
+.contact .enterdata div input {
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* background-color: violet; */
+  font-family: "Roboto", sans-serif;
+}
+.contact .enterdata .inputsubj {
+  width: 100%;
+  margin-bottom: 25px;
+}
+.contact .enterdata textarea {
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* background-color: violet; */
+  font-family: "Roboto", sans-serif;
+  resize: none;
+  margin-bottom: 25px;
+}
+.contact .enterdata button {
+  background-color: #ff305b;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px 20px;
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+.contact .enterdata button:hover {
+  background-color: red;
+}
+/* ****************************** Contact Section Eight End *************************************  */
+/* ****************************** Footer Section Nine Start *************************************  */
+.footer {
+  background-color: #333333;
+  padding: 50px 0;
+  text-align: center;
+}
+.footer .footericons a {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 40px;
+  padding: 0 10px;
+  transition: 0.5s all;
+}
+.footer .footericons a:hover {
+  color: #ff305b;
+}
+.footer p {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
+}
+.footer .Theme-fair a {
+  color: #ff305b;
+  text-decoration: none;
+}
+.footer .Theme-fair a:hover {
+  text-decoration: underline;
+}
+/* ****************************** Footer Section Nine End *************************************  */
